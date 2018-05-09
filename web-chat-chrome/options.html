@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>webChat-Options</title>
+    <link rel="stylesheet" href="css/options.css">
+
+</head>
+<body>
+<div class="main">
+    <div class="title"><h1>webChat</h1></div>
+    <div class="model">
+        <h2>弹幕颜色选择器</h2>
+        <div class="bliblicolor" style="float: left;"> </div>
+        <div style="margin: 1px 50px;float: left;"></div>
+        <div class="bliblix" style="float: left;">
+            <h3>现有弹幕颜色 <input type="button" id="colorsdefault" value="恢复默认"></h3>
+
+        </div>
+        <div style="clear : both" ></div>
+        <hr/>
+    </div>
+    <div class="model">
+        <h2>弹幕移动速度</h2>
+        <div style="float: left;">
+            <h3>过场毫秒数(默认:20000,<=0恢复默认):&nbsp;&nbsp;<input type="number" id="blibliTime">&nbsp;&nbsp;<input type="button" id="saveblibliTime" value="保存"> </h3>
+        </div >
+        <div style="margin: 1px 40px;float: left;"></div>
+        <div style="float: left;">
+            <h3>弹幕测试:&nbsp;&nbsp;<input id="test" type="text"value="test">&nbsp;&nbsp;<input type="button" id="testbliblibli" value="发射"> </h3>
+        </div>
+        <div style="clear : both" ></div>
+        <hr/>
+    </div>
+    <div class="model">
+        <h2>用户设置</h2>
+        <h3>用户名:       <input id="userName" type="text" placeholder="请设置你想要的用户名"></h3>
+    </div>
+</div>
+
+</body>
+<script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
+<script type="text/javascript" src="js/content-script.js"></script>
+<script type="text/javascript" src="js/options/d3.v3.min.js"></script>
+<script type="text/javascript" src="js/options/options.js"></script>
+
+</html>

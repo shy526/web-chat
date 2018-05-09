@@ -1,0 +1,46 @@
+.main{
+    width: 900px;
+    margin: 40px auto;
+    color: #444;
+    background: #fff;
+    overflow: hidden;
+    border:2px solid #000;
+}
+.title{
+    background: #ACF6EF;
+    margin: 0;
+}
+.title h1{
+    margin: 0;
+}
+svg{
+    margin: auto;
+}
+#button{
+    cursor: pointer;
+}
+.graphe_container{
+    -moz-transform-origin: 160px 160px;
+    -ms-transform-origin:  160px 160px;
+    -o-transform-origin: 160px 160px;
+    -webkit-transform-origin:  160px 160px;
+    transform-origin: 160px 160px;
+}
+rect,circle{
+    user-select: none;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+}
+.colorblok{
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin: 5px;
+}
+.bliblix{
+    float: left;
+    width:  50%;
+}
+.model{
+    margin-left: 37px;
+}

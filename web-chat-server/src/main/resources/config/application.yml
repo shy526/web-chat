@@ -1,0 +1,6 @@
+server:
+  port: 8090
+  context-path: /
+spring:
+  jmx:
+    default-domain: web-chat-servers
